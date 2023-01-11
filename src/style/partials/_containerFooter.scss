@@ -1,0 +1,23 @@
+.containerFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+    background-color: $green;
+    h2{
+        font-size: $font-text;
+        padding: 2em 1em;
+        color: $white;
+        font-weight: 600;
+    }
+}
+
+.sectionIconSocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1em;
+    gap: 1em;
+    cursor: pointer;
+}
+

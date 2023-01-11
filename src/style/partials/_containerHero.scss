@@ -1,0 +1,44 @@
+.containerHero{
+    color: $white;
+    padding: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        font-size: $font-title;
+        margin-bottom: .3em;
+        span{
+            color: $yellow;
+            display: block;
+            margin-left: 1em;
+        }
+    }
+    p{
+        font-size: $font-text;
+    }
+}
+.sectionImageHero{
+    width: 20em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-image:  url(".././source/gato.png");
+    background-size: 13em;
+    background-repeat: no-repeat;
+    background-position:top center;
+}
+
+/*media queries*/
+@media screen and (max-width: 768px){
+    .containerHero{
+        padding-bottom: 13em;
+        h1{
+            font-size: 3em;
+        }
+    }
+    .sectionImageHero{
+        display: none;
+    }
+}
