@@ -1,0 +1,43 @@
+.container{
+    font-family: $font-family;
+}
+.containerNav{
+    width: 100%;
+    height: 100%;
+}
+
+.svgNav{
+    width: 100%;
+    height: 27.5em;
+    background-color: $green;
+    position: absolute;
+    z-index: -10;
+}
+.sectionNav{
+    display: flex;
+    padding: 2em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo{
+    width: 3em; 
+}
+.menuNavbar{
+    margin-left: 1em;
+    display: flex;
+    gap: 2em;
+}
+.linkNavbar{
+    color: $white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: $font-items;
+}
+.linkNavbar:hover{
+    color: $yellow;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1em;
+    font-weight: 400;
+}
